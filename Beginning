@@ -1,2 +1,11 @@
-
 THIS IS MY FIRST REPOSITORY.
+
+#include <stdio.h>
+int main()
+{
+    float c, f;
+    printf("give the temperature in celscius :\n");
+    scanf("%f", &c);
+    float convert = 9/5*c+32;
+    printf("temperature in fahrenhiet is : %.2f", convert);
+}
