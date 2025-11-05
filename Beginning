@@ -8,4 +8,6 @@ int main()
     scanf("%f", &c);
     float convert = 9/5*c+32;
     printf("temperature in fahrenhiet is : %.2f", convert);
+
+return 0;
 }
